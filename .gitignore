@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Assorted
+node_modules
+npm-debug.log
+.idea
+__build__
+.vimrc
+.DS_Store
+coverage
+test-reports.xml
+test-results.tap
+service/local.js

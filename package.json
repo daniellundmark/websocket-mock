@@ -1,0 +1,21 @@
+{
+  "name": "websocket-mocking",
+  "version": "1.0.0",
+  "description": "Example of mocking WebSockets in tests",
+  "main": "echo.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- --full-trace test/*.js test/**/*.js test/**/**/*.js"
+  },
+  "author": "Daniel Lundmark",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^2.2.2"
+  },
+  "devDependencies": {
+    "codestyle": "^20.2.1",
+    "eslint": "^3.17.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.11"
+  }
+}
